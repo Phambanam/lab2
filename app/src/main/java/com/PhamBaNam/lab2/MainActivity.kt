@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG,"onPause")
     }
 
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG,"onRestart")
+    }
     override fun onStop() {
         super.onStop()
         Log.d(TAG,"onStop")
